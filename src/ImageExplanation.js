@@ -4,7 +4,6 @@ const Explanation = props => {
     return (
         <div>
             <p> {props.explain}</p>
-            <p>By: {props.copyright}</p>
         </div>
 
     );

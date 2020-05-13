@@ -1,12 +1,10 @@
 import React from 'react';
 
 const NasaImage = props => {
-
+    
     return (
-        <div className="imageContainer">
-            <h3>{props.title}</h3>
+        <div className="image-container">
             <img src={props.hdUrl} className="nasaImage" alt="dailyImage" />
-
         </div>
     );
 }
