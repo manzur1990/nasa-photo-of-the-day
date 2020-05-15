@@ -1,10 +1,13 @@
 import React from 'react';
+import Container from './ContainerStyle'
+
+
 
 const Explanation = props => {
     return (
-        <div>
-            <p> {props.explain}</p>
-        </div>
+        <Container >
+            <p>{props.explain}</p>
+        </Container>
 
     );
 };
